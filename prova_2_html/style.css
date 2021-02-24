@@ -1,0 +1,188 @@
+
+@charset "utf-8";
+
+#container{
+
+width: 950px;
+height: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+#header{
+
+ background-color: #ff6600;
+ text-align: center;
+ width: 950px;
+ height: 200px;
+ float: left;
+
+}
+
+#topnav{
+
+	background-color: #666666;
+
+  width: 950px;
+  height: 50px;
+  float: left;
+
+ }
+
+ #content{
+
+       background-color: #ff6600;
+
+ width: 950px;
+ height: auto;
+ float: left;
+
+
+ }
+
+
+
+ #footer{
+
+ background-color: #666666;
+
+ width: 950px;
+ height: 50px;
+ float: left;
+
+ 
+ }
+
+body{
+font-family: Verdana, Geneva, sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: normal;
+color: #ffffff;
+background-image: url(../images/images5.jpg);
+background-repeat: repeat;
+
+
+}
+ h1{
+
+ font-family: "Courier New", Courier, monospace;
+ font-weight: bold;
+ color: #ffffff;
+ font-size: 300%;
+
+ }
+
+  h2{
+
+ font-family: "Courier New", Courier, monospace;
+ font-weight: bold;
+ color: #ffffff;
+ font-size: 200%;
+
+
+  }
+
+   img{
+
+ border: thin solid;
+ margin: 50px;
+ border-color: #ffffff;
+ float: right;
+   }
+
+   .testoenfasi{
+ font-family: "Courier New", Courier, monospace;
+ font-size: 16px;
+ font-style: italic;
+ font-weight: bolder;
+ text-transform: uppercase;
+ color: #ffffff;
+ padding: 20px;
+
+   }
+   .elenco{
+list-style-type: square;   
+text-transform: lowercase;
+
+   }
+
+   /* stile del footer */
+
+   #container #footer p{
+ 
+ font-size: 11px;
+ color: #000;
+ text-align: center;
+
+
+   } 
+    #container #footer p a{   /*qui cambio lo stile al paragrafo */
+
+   font-size:11px; 
+   color: #000;
+   text-decoration: none;
+
+
+    }
+
+    #container #footer p a:hover{  /* hover serve per quando ci passa il cursore sopra in questo caso cambia colore*/
+
+    	color: #CCC;
+
+    }
+
+    /* stile menù orizzontale*/
+
+    #container #topnav .menù{
+
+ margin:0px;
+ list-style-type: none;      /* per non avere il segno nelle liste (pallini quadrati ecc.)*/
+   padding-left: 100px;
+
+
+
+    }
+
+#container #topnav .menù li{
+display: block;
+float: left; /* elementi sulla singola riga*/
+
+}
+                                                        /*la a sta per collegamenti*/
+ #container #topnav .menù li a{   /*tutti gli collegamenti contenuti nella  list contenuti all interno del menù contenuti nel container */
+                                                        
+ font-family: "Courier New", Courier, monospace;
+ background-color: #CCC;
+ font-size: 18px;
+ color: #333;
+ display: block;
+ font-weight: bold;
+ text-decoration: none;
+ width: 150px;
+ height: 50px;
+ text-align: center;
+ padding-top: 16px;
+ border-right-width: thin;
+ border-right: solid;
+ border-color: #F00;
+
+
+ }
+
+ #container #topnav .menù li a:hover{
+
+ background-color: #666;
+
+ }
+
+  #container #topnav .menù .home.active a{
+
+border-left: thin;
+border-left-color: #CCC;
+border-left-style: solid;
+background-color: #F00;
+
+  }
+
